@@ -39,23 +39,105 @@
   ],
   "loop": {
     "phase": "literature-review",
-    "iteration": 2,
+    "iteration": 3,
     "history": [
-      {"at": "2026-11-23T19:00:00.000Z", "action": "首轮 5 专题取证 + 主报告 11 节", "result": "五份专题 + 总报告 v1"},
-      {"at": "2026-11-23T21:26:00.000Z", "action": "增量对齐（窗口 2026-07~11）", "result": "五专题行数 306/359/378/396/401，新增方向判断节"},
-      {"at": "2026-11-24T00:20:00.000Z", "action": "立项 + 汇编合集", "result": "独立项目目录 + research-manifest.json + 合集 2261 行"}
+      {
+        "at": "2026-11-23T19:00:00.000Z",
+        "action": "首轮 5 专题取证 + 主报告 11 节",
+        "result": "五份专题 + 总报告 v1"
+      },
+      {
+        "at": "2026-11-23T21:26:00.000Z",
+        "action": "增量对齐（窗口 2026-07~11）",
+        "result": "五专题行数 306/359/378/396/401，新增方向判断节"
+      },
+      {
+        "at": "2026-11-24T00:20:00.000Z",
+        "action": "立项 + 汇编合集",
+        "result": "独立项目目录 + research-manifest.json + 合集 2261 行"
+      },
+      {
+        "at": "2026-11-24T03:48:00.000Z",
+        "action": "第二波深挖：五方向专题 + 主报告第十节 + 11 份合集",
+        "result": "专题6-10共5份(244-375行)，主报告扩至277行12节，合集4056行/155锚点"
+      }
     ]
   },
   "experiments": [],
   "artifacts": [
-    {"name": "research-collection-v1", "latestVersion": 1, "updatedAt": "2026-11-24T00:20:00.000Z", "description": "带总目录的全六份合集（2261 行 / 75 锚点 / 159144 字符）"},
-    {"name": "main-report-v2", "latestVersion": 2, "updatedAt": "2026-11-24T00:20:00.000Z", "description": "主报告 v2：同步最新口径（观察指标对齐 2026-11 + 2026 下半年进展对齐节）"},
-    {"name": "topic-1-advanced-packaging", "latestVersion": 2, "updatedAt": "2026-11-23T21:00:00.000Z", "description": "专题1 先进制程与先进封装（306 行/37 链）"},
-    {"name": "topic-2-postcmos", "latestVersion": 2, "updatedAt": "2026-11-23T21:00:00.000Z", "description": "专题2 后摩尔器件与计算新原理（359 行/73 链）"},
-    {"name": "topic-3-materials", "latestVersion": 2, "updatedAt": "2026-11-23T21:00:00.000Z", "description": "专题3 新材料宽禁带与柔性生物电子（378 行/35 链）"},
-    {"name": "topic-4-comms-photonics", "latestVersion": 2, "updatedAt": "2026-11-23T21:00:00.000Z", "description": "专题4 通信与光电融合（396 行/99 链）"},
-    {"name": "topic-5-industry", "latestVersion": 2, "updatedAt": "2026-11-23T21:00:00.000Z", "description": "专题5 产业格局政策与供应链（401 行/74 链）"}
+    {
+      "name": "research-collection-v1",
+      "latestVersion": 2,
+      "updatedAt": "2026-11-24T03:48:00.000Z",
+      "description": "带总目录的全十一分合集（1报告+10专题，4056行/155锚点/318872字符）"
+    },
+    {
+      "name": "main-report-v2",
+      "latestVersion": 3,
+      "updatedAt": "2026-11-24T03:48:00.000Z",
+      "description": "主报告 v3：新增第十节第二波深挖综合（High-NA/存储/EDA/量子/电力）+12节"
+    },
+    {
+      "name": "topic-1-advanced-packaging",
+      "latestVersion": 2,
+      "updatedAt": "2026-11-23T21:00:00.000Z",
+      "description": "专题1 先进制程与先进封装（306 行/37 链）"
+    },
+    {
+      "name": "topic-2-postcmos",
+      "latestVersion": 2,
+      "updatedAt": "2026-11-23T21:00:00.000Z",
+      "description": "专题2 后摩尔器件与计算新原理（359 行/73 链）"
+    },
+    {
+      "name": "topic-3-materials",
+      "latestVersion": 2,
+      "updatedAt": "2026-11-23T21:00:00.000Z",
+      "description": "专题3 新材料宽禁带与柔性生物电子（378 行/35 链）"
+    },
+    {
+      "name": "topic-4-comms-photonics",
+      "latestVersion": 2,
+      "updatedAt": "2026-11-23T21:00:00.000Z",
+      "description": "专题4 通信与光电融合（396 行/99 链）"
+    },
+    {
+      "name": "topic-5-industry",
+      "latestVersion": 2,
+      "updatedAt": "2026-11-23T21:00:00.000Z",
+      "description": "专题5 产业格局政策与供应链（401 行/74 链）"
+    },
+    {
+      "name": "topic-6-highna-litho",
+      "latestVersion": 1,
+      "updatedAt": "2026-11-24T03:48:00.000Z",
+      "description": "专题6 High-NA EUV与先进光刻（290行/26链/8 UNVERIFIED）"
+    },
+    {
+      "name": "topic-7-memory-cim",
+      "latestVersion": 1,
+      "updatedAt": "2026-11-24T03:48:00.000Z",
+      "description": "专题7 新型存储与存算一体（329行/44链/10 UNVERIFIED）"
+    },
+    {
+      "name": "topic-8-eda",
+      "latestVersion": 1,
+      "updatedAt": "2026-11-24T03:48:00.000Z",
+      "description": "专题8 EDA工具链与AI辅助设计（328行/35链/8 UNVERIFIED）"
+    },
+    {
+      "name": "topic-9-quantum",
+      "latestVersion": 1,
+      "updatedAt": "2026-11-24T03:48:00.000Z",
+      "description": "专题9 量子计算硬件与纠错（277行/31链/10 UNVERIFIED）"
+    },
+    {
+      "name": "topic-10-dc-power",
+      "latestVersion": 1,
+      "updatedAt": "2026-11-24T03:48:00.000Z",
+      "description": "专题10 AI数据中心电力与散热（375行/34链/8 UNVERIFIED）"
+    }
   ],
   "reviews": [],
-  "updatedAt": "2026-11-24T00:20:00.000Z"
+  "updatedAt": "2026-11-24T03:48:00.000Z"
 }
