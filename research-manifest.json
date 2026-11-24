@@ -39,7 +39,7 @@
   ],
   "loop": {
     "phase": "literature-review",
-    "iteration": 3,
+    "iteration": 4,
     "history": [
       {
         "at": "2026-11-23T19:00:00.000Z",
@@ -60,6 +60,11 @@
         "at": "2026-11-24T03:48:00.000Z",
         "action": "第二波深挖：五方向专题 + 主报告第十节 + 11 份合集",
         "result": "专题6-10共5份(244-375行)，主报告扩至277行12节，合集4056行/155锚点"
+      },
+      {
+        "at": "2026-11-24T06:13:00.000Z",
+        "action": "第三波深挖：5方向专题(11-15) + 主报告§11 + 16份合集",
+        "result": "专题11-15各301-426行，合集5978行/242锚点，主报告303行13节"
       }
     ]
   },
@@ -67,15 +72,15 @@
   "artifacts": [
     {
       "name": "research-collection-v1",
-      "latestVersion": 2,
-      "updatedAt": "2026-11-24T03:48:00.000Z",
-      "description": "带总目录的全十一分合集（1报告+10专题，4056行/155锚点/318872字符）"
+      "latestVersion": 3,
+      "updatedAt": "2026-11-24T06:13:00.000Z",
+      "description": "带总目录的全十六份合集（1报告+15专题，5978行/242锚点/455124字符）"
     },
     {
       "name": "main-report-v2",
-      "latestVersion": 3,
-      "updatedAt": "2026-11-24T03:48:00.000Z",
-      "description": "主报告 v3：新增第十节第二波深挖综合（High-NA/存储/EDA/量子/电力）+12节"
+      "latestVersion": 4,
+      "updatedAt": "2026-11-24T06:13:00.000Z",
+      "description": "主报告v4：新增§11第三波深挖综合（架构互连/感知/设备量测/基板材料/显示）+13节"
     },
     {
       "name": "topic-1-advanced-packaging",
@@ -136,8 +141,38 @@
       "latestVersion": 1,
       "updatedAt": "2026-11-24T03:48:00.000Z",
       "description": "专题10 AI数据中心电力与散热（375行/34链/8 UNVERIFIED）"
+    },
+    {
+      "name": "topic-11-aiarch",
+      "latestVersion": 1,
+      "updatedAt": "2026-11-24T06:13:00.000Z",
+      "description": "专题11 AI芯片架构与互连（302行/20链/7 UNVERIFIED）"
+    },
+    {
+      "name": "topic-12-sensor",
+      "latestVersion": 1,
+      "updatedAt": "2026-11-24T06:13:00.000Z",
+      "description": "专题12 图像传感器与感知芯片（312行/40链/12 UNVERIFIED）"
+    },
+    {
+      "name": "topic-13-equipment",
+      "latestVersion": 1,
+      "updatedAt": "2026-11-24T06:13:00.000Z",
+      "description": "专题13 半导体制造设备与量测检测（367行/35链/12 UNVERIFIED）"
+    },
+    {
+      "name": "topic-14-substrate",
+      "latestVersion": 1,
+      "updatedAt": "2026-11-24T06:13:00.000Z",
+      "description": "专题14 先进基板与封装材料（426行/39链/10 UNVERIFIED）"
+    },
+    {
+      "name": "topic-15-display",
+      "latestVersion": 1,
+      "updatedAt": "2026-11-24T06:13:00.000Z",
+      "description": "专题15 新型显示与近眼显示（305行/23链/11 UNVERIFIED）"
     }
   ],
   "reviews": [],
-  "updatedAt": "2026-11-24T03:48:00.000Z"
+  "updatedAt": "2026-11-24T06:13:00.000Z"
 }
