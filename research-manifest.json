@@ -39,7 +39,7 @@
   ],
   "loop": {
     "phase": "literature-review",
-    "iteration": 4,
+    "iteration": 5,
     "history": [
       {
         "at": "2026-11-23T19:00:00.000Z",
@@ -65,6 +65,11 @@
         "at": "2026-11-24T06:13:00.000Z",
         "action": "第三波深挖：5方向专题(11-15) + 主报告§11 + 16份合集",
         "result": "专题11-15各301-426行，合集5978行/242锚点，主报告303行13节"
+      },
+      {
+        "at": "2026-11-24T11:04:00.000Z",
+        "action": "第四波深挖：5方向专题(16-20) + 主报告§12 + 21份合集",
+        "result": "专题16-20各300-338行，合集7729行/319锚点，主报告329行14节"
       }
     ]
   },
@@ -72,15 +77,15 @@
   "artifacts": [
     {
       "name": "research-collection-v1",
-      "latestVersion": 3,
-      "updatedAt": "2026-11-24T06:13:00.000Z",
-      "description": "带总目录的全十六份合集（1报告+15专题，5978行/242锚点/455124字符）"
+      "latestVersion": 4,
+      "updatedAt": "2026-11-24T11:04:00.000Z",
+      "description": "带总目录的全二十一份合集（1报告+20专题，7729行/319锚点/593988字符）"
     },
     {
       "name": "main-report-v2",
-      "latestVersion": 4,
-      "updatedAt": "2026-11-24T06:13:00.000Z",
-      "description": "主报告v4：新增§11第三波深挖综合（架构互连/感知/设备量测/基板材料/显示）+13节"
+      "latestVersion": 5,
+      "updatedAt": "2026-11-24T11:04:00.000Z",
+      "description": "主报告v5：新增§12第四波深挖综合（光子/类脑/RISC-V/汽车/航天）+14节"
     },
     {
       "name": "topic-1-advanced-packaging",
@@ -171,8 +176,38 @@
       "latestVersion": 1,
       "updatedAt": "2026-11-24T06:13:00.000Z",
       "description": "专题15 新型显示与近眼显示（305行/23链/11 UNVERIFIED）"
+    },
+    {
+      "name": "topic-16-photonic",
+      "latestVersion": 1,
+      "updatedAt": "2026-11-24T11:04:00.000Z",
+      "description": "专题16 光子计算与光AI芯片（304行/17链/10 UNVERIFIED）"
+    },
+    {
+      "name": "topic-17-neuromorphic",
+      "latestVersion": 1,
+      "updatedAt": "2026-11-24T11:04:00.000Z",
+      "description": "专题17 类脑与神经形态计算（304行/22链/12 UNVERIFIED）"
+    },
+    {
+      "name": "topic-18-riscv",
+      "latestVersion": 1,
+      "updatedAt": "2026-11-24T11:04:00.000Z",
+      "description": "专题18 RISC-V生态（301行/35链/15 UNVERIFIED）"
+    },
+    {
+      "name": "topic-19-auto",
+      "latestVersion": 1,
+      "updatedAt": "2026-11-24T11:04:00.000Z",
+      "description": "专题19 汽车电子电气架构（313行/37链/14 UNVERIFIED）"
+    },
+    {
+      "name": "topic-20-space",
+      "latestVersion": 1,
+      "updatedAt": "2026-11-24T11:04:00.000Z",
+      "description": "专题20 航天抗辐射电子（339行/39链/7 UNVERIFIED）"
     }
   ],
   "reviews": [],
-  "updatedAt": "2026-11-24T06:13:00.000Z"
+  "updatedAt": "2026-11-24T11:04:00.000Z"
 }

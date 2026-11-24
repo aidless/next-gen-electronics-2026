@@ -1,6 +1,15 @@
 # Provenance — research-collection
 
-## v3（2026-11-24，当前）
+## v4（2026-11-25，当前）
+- 生成脚本：`analyses/build_collection.py`（docs 列表 21 份，汇编描述动态生成"四轮深挖"）
+- 自检脚本：`analyses/selfcheck.py`（22 份全 OK，319 锚点/319 链接/缺失 0，退出码 0）
+- 源文档：主报告 v5（新增第十二节第四波深挖）+ 5 首轮专题 + 5 第二波专题 + 5 第三波专题 + 5 第四波专题（专题 16–20）
+- 规模：7729 行 / 593988 字符 / 319 锚点
+- 第四波五专题一手源：Lightmatter/Nature + 曦智官网 + Q.ANT/NPS（专题16）；Intel Hala Point/SpiNNaker2/BrainScaleS-2/Sony Ace（专题17）；RISC-V ratified 文档树/RVA23 CRD/RISE 看板/OpenTitan/厂商公告（专题18）；VW CEA/NVIDIA/TI/华为/蔚来/地平线/IEEE TSN/中汽协（专题19）；JPL/NASA/TI/Frontgrade/Scientific Reports/JEIT（专题20）。论文 DOI 逐条 web_fetch 验号；UNVERIFIED 单列不入结论
+- 独立性：根目录 research-manifest.json 属另一研究线（长程推理天花板），本项目使用独立目录 `next-gen-electronics-2026/`，未改动共享 manifest
+- GitHub：aidless/next-gen-electronics-2026（public，2026-11-24 用户明确要求开源；v1 已推送，v2/v3/v4 本地 commit 未 push）
+
+## v3（2026-11-24）
 - 生成脚本：`analyses/build_collection.py`（docs 列表 16 份，汇编描述动态生成"三轮深挖"）
 - 自检脚本：`analyses/selfcheck.py`（17 份全 OK，242 锚点/242 链接/缺失 0，退出码 0）
 - 源文档：主报告 v4（新增第十一节第三波深挖）+ 5 首轮专题 + 5 第二波专题 + 5 第三波专题（专题 11–15）
