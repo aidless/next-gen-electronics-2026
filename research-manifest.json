@@ -1,0 +1,61 @@
+{
+  "schema": 2,
+  "project": {
+    "id": "next-gen-electronics-2026",
+    "title": "新一代电子技术：2024–2026 前沿进展与产业格局研究",
+    "domain": "electronics/semiconductor-frontier",
+    "created": "2026-11-24T00:20:00.000Z",
+    "status": "active"
+  },
+  "question": {
+    "text": "AI 算力需求与物理约束（制程放缓、存储墙、互连带宽、电力）叠加下，新一代电子技术（材料→器件→架构→系统→产业）在哪些方向已规模兑现、哪些仍处实验室、未来 2 年确定性最高的卡点在哪？",
+    "updatedAt": "2026-11-24T00:20:00.000Z"
+  },
+  "hypotheses": [
+    {
+      "id": "H1",
+      "text": "价值迁移：微缩放缓未中断（2nm/A16/CFET 仍在路线图），但性能与供给增量已转向先进封装、HBM、光互连与架构创新——'制程节点'只是入口，'封装+内存+互连'才是瓶颈。",
+      "status": "supported",
+      "experiments": [],
+      "reviews": [],
+      "updatedAt": "2026-11-24T00:20:00.000Z"
+    },
+    {
+      "id": "H2",
+      "text": "需求同源：AI 算力需求贯穿先进封装、HBM、CPO、800V 电源与宽禁带功率器件；先进封装产能、HBM 供给、电力把分散子领域绑成系统问题（CPO 与 CoWoS 争夺同一产能池即例证）。",
+      "status": "supported",
+      "experiments": [],
+      "reviews": [],
+      "updatedAt": "2026-11-24T00:20:00.000Z"
+    },
+    {
+      "id": "H3",
+      "text": "主权化：出口管制从硬件出口延伸到算力使用权（BIS 91 FR 74970），产业政策、人才缺口与供应链区域化成为与制程同等重要的变量。",
+      "status": "supported",
+      "experiments": [],
+      "reviews": [],
+      "updatedAt": "2026-11-24T00:20:00.000Z"
+    }
+  ],
+  "loop": {
+    "phase": "literature-review",
+    "iteration": 2,
+    "history": [
+      {"at": "2026-11-23T19:00:00.000Z", "action": "首轮 5 专题取证 + 主报告 11 节", "result": "五份专题 + 总报告 v1"},
+      {"at": "2026-11-23T21:26:00.000Z", "action": "增量对齐（窗口 2026-07~11）", "result": "五专题行数 306/359/378/396/401，新增方向判断节"},
+      {"at": "2026-11-24T00:20:00.000Z", "action": "立项 + 汇编合集", "result": "独立项目目录 + research-manifest.json + 合集 2261 行"}
+    ]
+  },
+  "experiments": [],
+  "artifacts": [
+    {"name": "research-collection-v1", "latestVersion": 1, "updatedAt": "2026-11-24T00:20:00.000Z", "description": "带总目录的全六份合集（2261 行 / 75 锚点 / 159144 字符）"},
+    {"name": "main-report-v2", "latestVersion": 2, "updatedAt": "2026-11-24T00:20:00.000Z", "description": "主报告 v2：同步最新口径（观察指标对齐 2026-11 + 2026 下半年进展对齐节）"},
+    {"name": "topic-1-advanced-packaging", "latestVersion": 2, "updatedAt": "2026-11-23T21:00:00.000Z", "description": "专题1 先进制程与先进封装（306 行/37 链）"},
+    {"name": "topic-2-postcmos", "latestVersion": 2, "updatedAt": "2026-11-23T21:00:00.000Z", "description": "专题2 后摩尔器件与计算新原理（359 行/73 链）"},
+    {"name": "topic-3-materials", "latestVersion": 2, "updatedAt": "2026-11-23T21:00:00.000Z", "description": "专题3 新材料宽禁带与柔性生物电子（378 行/35 链）"},
+    {"name": "topic-4-comms-photonics", "latestVersion": 2, "updatedAt": "2026-11-23T21:00:00.000Z", "description": "专题4 通信与光电融合（396 行/99 链）"},
+    {"name": "topic-5-industry", "latestVersion": 2, "updatedAt": "2026-11-23T21:00:00.000Z", "description": "专题5 产业格局政策与供应链（401 行/74 链）"}
+  ],
+  "reviews": [],
+  "updatedAt": "2026-11-24T00:20:00.000Z"
+}

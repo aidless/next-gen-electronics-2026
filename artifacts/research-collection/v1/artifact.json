@@ -1,0 +1,18 @@
+{
+  "name": "research-collection",
+  "version": 1,
+  "created": "2026-11-24T00:20:00.000Z",
+  "title": "新一代电子技术 2024–2026 研究合集（带总目录）",
+  "path": "manuscript/新一代电子技术-研究合集-2026-11-23.md",
+  "source_documents": [
+    "新一代电子技术-研究报告-2026-11-23.md",
+    "专题1-先进制程与先进封装-2026-11-23.md",
+    "专题2-后摩尔器件与计算新原理-2026-11-23.md",
+    "专题3-新材料宽禁带与柔性生物电子-2026-11-23.md",
+    "专题4-通信与光电融合-2026-11-23.md",
+    "专题5-产业格局政策与供应链-2026-11-23.md"
+  ],
+  "stats": {"lines": 2261, "chars": 159144, "anchors": 75, "links": 75, "missing_anchors": 0},
+  "builder": "analyses/build_collection.py",
+  "selfcheck": "analyses/selfcheck.py"
+}
