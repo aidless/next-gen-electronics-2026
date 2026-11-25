@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""场景 A/C 中文结构化图，matplotlib 直出 PNG。两张：成熟度地图 + 四轮产业链全景。"""
+"""场景 A/C 中文结构化图，matplotlib 直出 PNG。两张：成熟度地图 + 五轮产业链全景。"""
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
@@ -47,12 +47,12 @@ fig.savefig(OUT + "成熟度地图-2026-11.png", dpi=150, bbox_inches="tight")
 plt.close(fig)
 print("图1 完成")
 
-# ---------- 图2：四轮 20 专题产业链全景 ----------
+# ---------- 图2：五轮 25 专题产业链全景 ----------
 fig, ax = plt.subplots(figsize=(16, 10))
 ax.set_xlim(0, 16)
 ax.set_ylim(0, 10)
 ax.axis("off")
-ax.set_title("新一代电子技术：四轮深挖 20 专题产业链全景", fontsize=18, fontweight="bold", pad=14)
+ax.set_title("新一代电子技术：五轮深挖 25 专题产业链全景", fontsize=18, fontweight="bold", pad=14)
 
 layers = [
     (8.4, "#1565c0", "材料与器件底座", "专题3 材料 · 专题2 后摩尔 · 专题23 功率模块 · 专题21 材料表征"),
@@ -70,9 +70,9 @@ for y, color, label, items in layers:
     if y > 1.2:
         ax.add_patch(FancyArrowPatch((8, y - 0.75), (8, y - 1.45),
                      arrowstyle="-|>", mutation_scale=16, color="#888", lw=1.4))
-ax.text(0.4, 0.15, "自下而上：材料→制造→架构→系统→终端；四轮深挖逐层补齐（第五轮进行中）",
+ax.text(0.4, 0.15, "自下而上：材料→制造→架构→系统→终端；五轮深挖逐层补齐（25 专题全部完成）",
         fontsize=10, color="#555", style="italic")
 fig.tight_layout()
-fig.savefig(OUT + "产业链全景-20专题-2026-11.png", dpi=150, bbox_inches="tight")
+fig.savefig(OUT + "产业链全景-25专题-2026-11.png", dpi=150, bbox_inches="tight")
 plt.close(fig)
 print("图2 完成")

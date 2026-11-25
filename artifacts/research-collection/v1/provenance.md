@@ -1,6 +1,15 @@
 # Provenance — research-collection
 
-## v4（2026-11-25，当前）
+## v5（2026-11-25，当前）
+- 生成脚本：`analyses/build_collection.py`（docs 列表 26 份，汇编描述动态生成"五轮深挖"）
+- 自检脚本：`analyses/selfcheck.py`（27 份全 OK，389 锚点/389 链接/缺失 0，退出码 0）
+- 源文档：主报告 v6（新增第十三节第五波深挖）+ 5 首轮专题 + 5 第二波 + 5 第三波 + 5 第四波 + 5 第五波（专题 21–25）
+- 规模：9555 行 / 736834 字符 / 389 锚点；三格式同步重建：HTML（955712 字符/1153 目录链接）、PDF（11MB/305 页）、EPUB（27 章）
+- 第五波五专题一手源：Nature Communications/NIST/上海科技大学/中科院高能所（专题21）；Formal Methods 论文/Siemens/Cadence/Synopsys 一手页（专题22）；NGK/IMAPS/APEC 2026/三井/斯达年报（专题23）；IBM/imec/BAQIS/NIST/中科大/电子科大（专题24）；ClinicalTrials.gov API/Neuralink/Synchron/Paradromics/Nature Medicine/NEO/FDA（专题25）。论文 DOI 逐条 web_fetch 验号；UNVERIFIED 单列不入结论
+- 独立性：根目录 research-manifest.json 属另一研究线（长程推理天花板），本项目使用独立目录 `next-gen-electronics-2026/`，未改动共享 manifest
+- GitHub：aidless/next-gen-electronics-2026（public；v1 + 产品化产物已 push，v2/v3/v4 本地 commit 于本次一并推送）
+
+## v4（2026-11-25）
 - 生成脚本：`analyses/build_collection.py`（docs 列表 21 份，汇编描述动态生成"四轮深挖"）
 - 自检脚本：`analyses/selfcheck.py`（22 份全 OK，319 锚点/319 链接/缺失 0，退出码 0）
 - 源文档：主报告 v5（新增第十二节第四波深挖）+ 5 首轮专题 + 5 第二波专题 + 5 第三波专题 + 5 第四波专题（专题 16–20）

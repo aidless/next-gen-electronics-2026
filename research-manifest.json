@@ -39,7 +39,7 @@
   ],
   "loop": {
     "phase": "literature-review",
-    "iteration": 5,
+    "iteration": 6,
     "history": [
       {
         "at": "2026-11-23T19:00:00.000Z",
@@ -70,6 +70,11 @@
         "at": "2026-11-24T11:04:00.000Z",
         "action": "第四波深挖：5方向专题(16-20) + 主报告§12 + 21份合集",
         "result": "专题16-20各300-338行，合集7729行/319锚点，主报告329行14节"
+      },
+      {
+        "at": "2026-11-25T00:00:00.000Z",
+        "action": "第五波：五横切层专题 + 主报告§13 + 26份合集v5",
+        "result": "专题21-25共5份(300-340行)，主报告扩至355行15节，合集9555行/389锚点；PDF305页/EPUB27章/HTML1153目录"
       }
     ]
   },
@@ -77,15 +82,15 @@
   "artifacts": [
     {
       "name": "research-collection-v1",
-      "latestVersion": 4,
-      "updatedAt": "2026-11-24T11:04:00.000Z",
-      "description": "带总目录的全二十一份合集（1报告+20专题，7729行/319锚点/593988字符）"
+      "latestVersion": 5,
+      "updatedAt": "2026-11-25T00:00:00.000Z",
+      "description": "带总目录的全二十六份合集（1报告+25专题，9555行/389锚点/736834字符）"
     },
     {
       "name": "main-report-v2",
-      "latestVersion": 5,
-      "updatedAt": "2026-11-24T11:04:00.000Z",
-      "description": "主报告v5：新增§12第四波深挖综合（光子/类脑/RISC-V/汽车/航天）+14节"
+      "latestVersion": 6,
+      "updatedAt": "2026-11-25T00:00:00.000Z",
+      "description": "主报告 v6：15节（新增§13第五波五横切层）"
     },
     {
       "name": "topic-1-advanced-packaging",
@@ -206,8 +211,38 @@
       "latestVersion": 1,
       "updatedAt": "2026-11-24T11:04:00.000Z",
       "description": "专题20 航天抗辐射电子（339行/39链/7 UNVERIFIED）"
+    },
+    {
+      "name": "topic-21-metrology",
+      "latestVersion": 1,
+      "updatedAt": "2026-11-25T00:00:00.000Z",
+      "description": "专题21 电子材料表征与计量（301行/30链/12 UNVERIFIED）"
+    },
+    {
+      "name": "topic-22-formal-verification",
+      "latestVersion": 1,
+      "updatedAt": "2026-11-25T00:00:00.000Z",
+      "description": "专题22 EDA形式验证（335行/34链/9 UNVERIFIED）"
+    },
+    {
+      "name": "topic-23-power-package",
+      "latestVersion": 1,
+      "updatedAt": "2026-11-25T00:00:00.000Z",
+      "description": "专题23 功率模块封装（340行/52链/8 UNVERIFIED）"
+    },
+    {
+      "name": "topic-24-qinterconnect",
+      "latestVersion": 1,
+      "updatedAt": "2026-11-25T00:00:00.000Z",
+      "description": "专题24 量子-经典互连（365行/24链/10 UNVERIFIED）"
+    },
+    {
+      "name": "topic-25-bci-clinical",
+      "latestVersion": 1,
+      "updatedAt": "2026-11-25T00:00:00.000Z",
+      "description": "专题25 脑机接口临床转化（308行/36链/10 UNVERIFIED）"
     }
   ],
   "reviews": [],
-  "updatedAt": "2026-11-24T11:04:00.000Z"
+  "updatedAt": "2026-11-25T00:00:00.000Z"
 }
