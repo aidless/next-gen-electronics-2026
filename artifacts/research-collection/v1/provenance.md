@@ -1,6 +1,15 @@
 # Provenance — research-collection
 
-## v5（2026-11-25，当前）
+## v6（2026-11-26，当前：第六波部分交付）
+- 生成脚本：`analyses/build_collection.py`（docs 列表 27 份：1 报告 + 25 专题 + 专题27；26/28/29/30 标 `NOT_ASSESSED` 不入合集）
+- 自检脚本：`analyses/selfcheck.py`（27 份全 OK，410 锚点/410 链接/缺失 0，退出码 0）
+- 源文档：主报告 v7（新增第十四节第六波 EDA 后端与四个 NOT_ASSESSED 登记）+ 五轮 25 专题 + 第六波专题27
+- 规模：9947 行 / 1195418 字符 / 410 锚点；三格式同步重建：HTML（992702 字符/1204 目录链接）、PDF（12MB/317 页）、EPUB（28 章）；价值排序版 9947 行/766782 字符
+- 第六波专题27一手源：Synopsys/Cadence/Siemens 产品页与白皮书 + DAC 2025 两篇（10.1109/dac63849.2025.11133087、10.1109/dac63849.2025.11132657 经 Crossref 验号，正文未取不入性能证据）。UNVERIFIED 10 条单列不入结论
+- 判据闸：`analyses/check_numeric_consistency.py`（entries=6 occurrences=49 conflicts=0 problems=0）+ `analyses/check_institution_freq.py`（institutions=14 docs=27 flagged=0 problems=0）+ `analyses/selftest_audit_gates.py`（六类反证全 PASS）
+- 未交付登记：专题26 量子算法软件栈、专题28 存储量产工艺、专题29 面板级封装、专题30 CXL 内存池化，三次追催无产物，统一 `NOT_ASSESSED`，不代写
+
+## v5（2026-11-25，上一版）
 - 生成脚本：`analyses/build_collection.py`（docs 列表 26 份，汇编描述动态生成"五轮深挖"）
 - 自检脚本：`analyses/selfcheck.py`（27 份全 OK，389 锚点/389 链接/缺失 0，退出码 0）
 - 源文档：主报告 v6（新增第十三节第五波深挖）+ 5 首轮专题 + 5 第二波 + 5 第三波 + 5 第四波 + 5 第五波（专题 21–25）

@@ -1,9 +1,9 @@
 {
   "name": "research-collection",
-  "version": 5,
+  "version": 6,
   "created": "2026-11-24T00:20:00.000Z",
-  "updated": "2026-11-25T15:00:00.000Z",
-  "title": "新一代电子技术 2024–2026 研究合集（带总目录，1 报告 + 25 专题，五轮深挖）",
+  "updated": "2026-11-26T22:00:00.000Z",
+  "title": "新一代电子技术 2024–2026 研究合集（带总目录，1 报告 + 25 专题 + 第六波专题27；26/28/29/30 NOT_ASSESSED）",
   "path": "manuscript/新一代电子技术-研究合集-2026-11-23.md",
   "source_documents": [
     "新一代电子技术-研究报告-2026-11-23.md",
@@ -31,15 +31,17 @@
     "专题22-EDA形式验证-2026-11-25.md",
     "专题23-功率模块封装-2026-11-25.md",
     "专题24-量子经典互连-2026-11-25.md",
-    "专题25-脑机接口临床转化-2026-11-25.md"
+    "专题25-脑机接口临床转化-2026-11-25.md",
+    "专题27-EDA后端工具链-2026-11-25.md"
   ],
-  "stats": {"lines": 9555, "chars": 736834, "anchors": 389, "links": 389, "missing_anchors": 0},
+  "stats": {"lines": 9947, "chars": 1195418, "anchors": 410, "links": 410, "missing_anchors": 0},
   "version_history": [
     {"version": 1, "docs": 6, "lines": 2261, "anchors": 75, "at": "2026-11-24T00:20:00.000Z"},
     {"version": 2, "docs": 11, "lines": 4056, "anchors": 155, "at": "2026-11-24T03:48:00.000Z", "note": "第二波深挖加入专题6-10"},
     {"version": 3, "docs": 16, "lines": 5978, "anchors": 242, "at": "2026-11-24T06:13:00.000Z", "note": "第三波深挖加入专题11-15"},
     {"version": 4, "docs": 21, "lines": 7729, "anchors": 319, "at": "2026-11-25T11:04:00.000Z", "note": "第四波深挖加入专题16-20"},
-    {"version": 5, "docs": 26, "lines": 9555, "anchors": 389, "at": "2026-11-25T15:00:00.000Z", "note": "第五波深挖加入专题21-25；HTML/PDF/EPUB 三格式同步重建"}
+    {"version": 5, "docs": 26, "lines": 9555, "anchors": 389, "at": "2026-11-25T15:00:00.000Z", "note": "第五波深挖加入专题21-25；HTML/PDF/EPUB 三格式同步重建"},
+    {"version": 6, "docs": 27, "lines": 9947, "anchors": 410, "at": "2026-11-26T22:00:00.000Z", "note": "第六波部分交付：专题27加入；26/28/29/30 NOT_ASSESSED；数字/机构闸与时间轴图同步"}
   ],
   "builder": "analyses/build_collection.py",
   "selfcheck": "analyses/selfcheck.py"

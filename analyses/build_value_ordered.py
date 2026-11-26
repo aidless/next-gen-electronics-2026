@@ -35,13 +35,16 @@ docs_all = [
     ("doc23", "专题23-功率模块封装-2026-11-25.md"),
     ("doc24", "专题24-量子经典互连-2026-11-25.md"),
     ("doc25", "专题25-脑机接口临床转化-2026-11-25.md"),
+    ("doc27", "专题27-EDA后端工具链-2026-11-25.md"),
 ]
 # 价值序：已规模兑现且卡脖子（1/4/10/11/23）→ 导入爬坡确定性高（6/7/8/13/14/22/21）
 # → 产业主权（5/18）→ 材料/器件底座（3/2）→ 垂直应用（12/19/25/15/20）
 # → 实验室新原理（9/24/16/17）
-value_order = ["doc0", "doc1", "doc11", "doc10", "doc4", "doc23", "doc6", "doc7", "doc8", "doc22",
-               "doc13", "doc14", "doc21", "doc5", "doc18", "doc3", "doc2", "doc12", "doc19", "doc25",
+value_order = ["doc0", "doc1", "doc11", "doc10", "doc4", "doc23", "doc6", "doc7",
+               "doc8", "doc27", "doc22", "doc13", "doc14", "doc21",
+               "doc5", "doc18", "doc3", "doc2", "doc12", "doc19", "doc25",
                "doc15", "doc20", "doc9", "doc24", "doc16", "doc17"]
+# 第六波仅 doc27 已交付，接 doc8；doc26/28/29/30 三次续写无交付，状态 NOT_ASSESSED，不入排序与合集。
 by_key = {k: (k, path) for k, path in docs_all}
 ranked = [by_key[k] for k in value_order if k in by_key]
 

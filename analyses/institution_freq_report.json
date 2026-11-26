@@ -1,0 +1,150 @@
+{
+  "summary": "institutions=14 docs=27 flagged=0 problems=0",
+  "rows": [
+    {
+      "institution": "TrendForce",
+      "count": 197,
+      "topics": [
+        "专题1",
+        "专题10",
+        "专题11",
+        "专题12",
+        "专题14",
+        "专题15",
+        "专题2",
+        "专题23",
+        "专题3",
+        "专题4",
+        "专题5",
+        "专题6",
+        "专题7",
+        "总报告/合集"
+      ],
+      "status": "多点交叉/低频"
+    },
+    {
+      "institution": "SemiAnalysis",
+      "count": 51,
+      "topics": [
+        "专题14",
+        "专题27",
+        "专题6",
+        "专题8",
+        "总报告/合集"
+      ],
+      "status": "多点交叉/低频"
+    },
+    {
+      "institution": "SIA",
+      "count": 35,
+      "topics": [
+        "专题13",
+        "专题5",
+        "总报告/合集"
+      ],
+      "status": "多点交叉/低频"
+    },
+    {
+      "institution": "WSTS",
+      "count": 29,
+      "topics": [
+        "专题5",
+        "总报告/合集"
+      ],
+      "status": "多点交叉/低频"
+    },
+    {
+      "institution": "Yole",
+      "count": 25,
+      "topics": [
+        "专题12",
+        "专题14",
+        "专题3",
+        "总报告/合集"
+      ],
+      "status": "多点交叉/低频"
+    },
+    {
+      "institution": "高盛",
+      "count": 18,
+      "topics": [
+        "专题14",
+        "专题4",
+        "总报告/合集"
+      ],
+      "status": "多点交叉/低频"
+    },
+    {
+      "institution": "Bernstein",
+      "count": 15,
+      "topics": [
+        "专题1",
+        "专题13",
+        "总报告/合集"
+      ],
+      "status": "多点交叉/低频"
+    },
+    {
+      "institution": "Counterpoint",
+      "count": 15,
+      "topics": [
+        "专题15",
+        "专题4",
+        "专题5"
+      ],
+      "status": "多点交叉/低频"
+    },
+    {
+      "institution": "TechInsights",
+      "count": 14,
+      "topics": [
+        "专题13"
+      ],
+      "status": "单点依赖-已披露"
+    },
+    {
+      "institution": "Gartner",
+      "count": 12,
+      "topics": [
+        "专题13"
+      ],
+      "status": "单点依赖-已披露"
+    },
+    {
+      "institution": "UBI Research",
+      "count": 10,
+      "topics": [
+        "专题15",
+        "总报告/合集"
+      ],
+      "status": "多点交叉/低频"
+    },
+    {
+      "institution": "Omdia",
+      "count": 9,
+      "topics": [
+        "专题12",
+        "专题15"
+      ],
+      "status": "多点交叉/低频"
+    },
+    {
+      "institution": "大摩",
+      "count": 5,
+      "topics": [
+        "专题14",
+        "总报告/合集"
+      ],
+      "status": "多点交叉/低频"
+    },
+    {
+      "institution": "中汽协",
+      "count": 4,
+      "topics": [
+        "专题19",
+        "总报告/合集"
+      ],
+      "status": "多点交叉/低频"
+    }
+  ]
+}

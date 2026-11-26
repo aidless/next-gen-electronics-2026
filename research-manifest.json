@@ -39,7 +39,7 @@
   ],
   "loop": {
     "phase": "literature-review",
-    "iteration": 6,
+    "iteration": 7,
     "history": [
       {
         "at": "2026-11-23T19:00:00.000Z",
@@ -75,6 +75,11 @@
         "at": "2026-11-25T00:00:00.000Z",
         "action": "第五波：五横切层专题 + 主报告§13 + 26份合集v5",
         "result": "专题21-25共5份(300-340行)，主报告扩至355行15节，合集9555行/389锚点；PDF305页/EPUB27章/HTML1153目录"
+      },
+      {
+        "at": "2026-11-26T22:00:00.000Z",
+        "action": "第六波部分交付：专题27 + 主报告§14 + 合集v6 + 数字/机构闸 + 定时落盘 + 时间轴图",
+        "result": "专题27 326行/26URL/2 DOI已验；专题26/28/29/30 NOT_ASSESSED；合集27份9947行/410锚点，PDF317页/EPUB28章/HTML1204目录"
       }
     ]
   },
@@ -82,15 +87,15 @@
   "artifacts": [
     {
       "name": "research-collection-v1",
-      "latestVersion": 5,
-      "updatedAt": "2026-11-25T00:00:00.000Z",
-      "description": "带总目录的全二十六份合集（1报告+25专题，9555行/389锚点/736834字符）"
+      "latestVersion": 6,
+      "updatedAt": "2026-11-26T22:00:00.000Z",
+      "description": "带总目录的合集（1报告+25专题+第六波专题27，9947行/410锚点/1195418字符；26/28/29/30 NOT_ASSESSED）"
     },
     {
       "name": "main-report-v2",
-      "latestVersion": 6,
-      "updatedAt": "2026-11-25T00:00:00.000Z",
-      "description": "主报告 v6：15节（新增§13第五波五横切层）"
+      "latestVersion": 7,
+      "updatedAt": "2026-11-26T22:00:00.000Z",
+      "description": "主报告 v7：16节（新增§14第六波EDA后端；26/28/29/30 NOT_ASSESSED）"
     },
     {
       "name": "topic-1-advanced-packaging",
@@ -241,8 +246,32 @@
       "latestVersion": 1,
       "updatedAt": "2026-11-25T00:00:00.000Z",
       "description": "专题25 脑机接口临床转化（308行/36链/10 UNVERIFIED）"
+    },
+    {
+      "name": "topic-27-eda-backend",
+      "latestVersion": 1,
+      "updatedAt": "2026-11-26T22:00:00.000Z",
+      "description": "专题27 EDA后端工具链完整图谱（326行/26链/10 UNVERIFIED/2 DOI已验）"
+    },
+    {
+      "name": "audit-gates-v1",
+      "latestVersion": 1,
+      "updatedAt": "2026-11-26T22:00:00.000Z",
+      "description": "数字一致性闸+机构频次闸+六类反证自检，全部PASS"
+    },
+    {
+      "name": "scheduled-update-baseline-v1",
+      "latestVersion": 1,
+      "updatedAt": "2026-11-26T22:00:00.000Z",
+      "description": "updates/ 定时更新落盘基线与任务prompt（只报告不改交付物）"
+    },
+    {
+      "name": "timeline-figure-v1",
+      "latestVersion": 1,
+      "updatedAt": "2026-11-26T22:00:00.000Z",
+      "description": "年度进展时间轴 2365×960（基于 manifest + git commit，第六波未交付如实标注）"
     }
   ],
   "reviews": [],
-  "updatedAt": "2026-11-25T00:00:00.000Z"
+  "updatedAt": "2026-11-26T22:00:00.000Z"
 }

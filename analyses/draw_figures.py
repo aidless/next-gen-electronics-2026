@@ -47,16 +47,16 @@ fig.savefig(OUT + "成熟度地图-2026-11.png", dpi=150, bbox_inches="tight")
 plt.close(fig)
 print("图1 完成")
 
-# ---------- 图2：五轮 25 专题产业链全景 ----------
+# ---------- 图2：五轮 25 专题 + 第六波专题27，4 项 NOT_ASSESSED ----------
 fig, ax = plt.subplots(figsize=(16, 10))
 ax.set_xlim(0, 16)
 ax.set_ylim(0, 10)
 ax.axis("off")
-ax.set_title("新一代电子技术：五轮深挖 25 专题产业链全景", fontsize=18, fontweight="bold", pad=14)
+ax.set_title("新一代电子技术：五轮 25 专题 + 第六波专题27 产业链全景（4 项 NOT_ASSESSED）", fontsize=16, fontweight="bold", pad=14)
 
 layers = [
     (8.4, "#1565c0", "材料与器件底座", "专题3 材料 · 专题2 后摩尔 · 专题23 功率模块 · 专题21 材料表征"),
-    (6.6, "#2e7d32", "制造与设计工具", "专题1 制程 · 专题6 光刻 · 专题13 设备量测 · 专题8 EDA · 专题22 形式验证 · 专题14 基板材料"),
+    (6.6, "#2e7d32", "制造与设计工具", "专题1 制程 · 专题6 光刻 · 专题13 设备量测 · 专题8 EDA · 专题22 形式验证 · 专题27 EDA后端 · 专题14 基板材料"),
     (4.8, "#6a1b9a", "架构与计算新原理", "专题11 架构互连 · 专题16 光子 · 专题17 类脑 · 专题9 量子 · 专题24 量子互连 · 专题18 RISC-V"),
     (3.0, "#ef6c00", "系统与约束", "专题4 通信光电 · 专题7 存储 · 专题10 电力散热 · 专题5 产业主权 · 专题20 航天"),
     (1.2, "#00838f", "终端与应用", "专题12 感知 · 专题15 显示 · 专题19 汽车 · 专题25 BCI 临床"),
@@ -70,9 +70,9 @@ for y, color, label, items in layers:
     if y > 1.2:
         ax.add_patch(FancyArrowPatch((8, y - 0.75), (8, y - 1.45),
                      arrowstyle="-|>", mutation_scale=16, color="#888", lw=1.4))
-ax.text(0.4, 0.15, "自下而上：材料→制造→架构→系统→终端；五轮深挖逐层补齐（25 专题全部完成）",
-        fontsize=10, color="#555", style="italic")
+ax.text(0.4, 0.15, "自下而上：材料→制造→架构→系统→终端；五轮25专题完成，第六波仅专题27交付；专题26/28/29/30 NOT_ASSESSED",
+        fontsize=9.5, color="#555", style="italic")
 fig.tight_layout()
-fig.savefig(OUT + "产业链全景-25专题-2026-11.png", dpi=150, bbox_inches="tight")
+fig.savefig(OUT + "产业链全景-26专题-2026-11.png", dpi=150, bbox_inches="tight")
 plt.close(fig)
 print("图2 完成")

@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "generated": "2026-11-27",
+  "purpose": "跨专题重复数字的口径一致性机读台账；每项登记规范值、口径与必须出现的来源文件。",
+  "entries": [
+    {
+      "id": "wsts_2026_total",
+      "canonical": "$1.655T",
+      "caliber": "WSTS 2026-08 Q2 更新口径，以 Q2 实测替换 Spring 预测，非新情景预测",
+      "required_files": [
+        "manuscript/新一代电子技术-研究报告-2026-11-23.md",
+        "manuscript/专题5-产业格局政策与供应链-2026-11-23.md"
+      ],
+      "forbidden_variants": ["$1.656T", "$1.65T", "$1.655B"]
+    },
+    {
+      "id": "sia_q3_2026",
+      "canonical": "$517.7B",
+      "caliber": "SIA 2026Q3 全球销售额，环比 +24.1%",
+      "required_files": [
+        "manuscript/新一代电子技术-研究报告-2026-11-23.md",
+        "manuscript/专题5-产业格局政策与供应链-2026-11-23.md"
+      ],
+      "forbidden_variants": ["$518B", "$517.8B", "$517.7T"]
+    },
+    {
+      "id": "exe5200b_throughput",
+      "canonical": "135 WPH",
+      "caliber": "EXE:5200B 客户验收实测；不可与 5000 路线图 185 WPH 混算",
+      "required_files": [
+        "manuscript/新一代电子技术-研究报告-2026-11-23.md",
+        "manuscript/专题6-High-NA EUV与先进光刻-2026-11-24.md"
+      ],
+      "forbidden_variants": ["1350 WPH", "13.5 WPH"]
+    },
+    {
+      "id": "nvl72_scale_up",
+      "canonical": "260 TB/s",
+      "caliber": "NVIDIA NVL72 / AMD Helios 的 72 卡域 scale-up 带宽，厂商口径",
+      "required_files": [
+        "manuscript/新一代电子技术-研究报告-2026-11-23.md",
+        "manuscript/专题11-AI芯片架构与互连-2026-11-24.md"
+      ],
+      "forbidden_variants": ["260 GB/s", "26 TB/s"]
+    },
+    {
+      "id": "china_metrology_share",
+      "canonical": "0.7%",
+      "caliber": "中国厂商 2025 年全球量测检测份额",
+      "required_files": [
+        "manuscript/新一代电子技术-研究报告-2026-11-23.md",
+        "manuscript/专题13-半导体制造设备与量测检测-2026-11-24.md"
+      ],
+      "forbidden_variants": ["7%", "0.07%"],
+      "allowed_contexts": {
+        "7%": ["沉积整体全球份额", "中国沉积全球份额"]
+      }
+    },
+    {
+      "id": "china_auto_localization",
+      "canonical": "11.9%",
+      "caliber": "中汽协 2026 年车规芯片国产替代率，湖南省工信厅转引；18%/25% 二手口径不入结论",
+      "required_files": [
+        "manuscript/新一代电子技术-研究报告-2026-11-23.md",
+        "manuscript/专题19-汽车电子电气架构-2026-11-25.md"
+      ],
+      "forbidden_variants": ["11.8%", "12.9%"]
+    }
+  ]
+}
